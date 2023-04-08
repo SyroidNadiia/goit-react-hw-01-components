@@ -79,7 +79,7 @@ export const Stat = styled.li`
     left: -20px;
   }
 
-  &:first-child::after {
+  &:first-of-type::after {
     content: '';
     border-left: 1px solid #e4e9f0;
     height: 100%;
